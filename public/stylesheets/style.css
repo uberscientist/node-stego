@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  margin: 5px;
+}
+
+#stego_bmp {
+  margin: 10px auto;
+  display: block;
+}
+
+#pagewrap {
+  width: 777px;
+  margin: 20px auto;
+}
+
+#response_container{
+  width: 600px;
+  text-align: center;
+  float: left;
+  clear: left;
+}
+
+.form_container {
+  width: 300px;
+  margin: 20px auto;
+  float: left;
+}
+
+.upload_button {
+  width: 100px;
+  height: 33px;
+  margin: 10px auto;
+  display: block;
+}
+
+#spinner {
+  margin: 10px;
+  top: -50px;
+}
+

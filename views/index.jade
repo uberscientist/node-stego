@@ -1,0 +1,27 @@
+script(src='/javascripts/stegojax.js', type='text/javascript')
+#pagewrap
+  h1 Node.JS Steganography
+  p A stego application in Node.JS
+  .form_container
+    h2 Encode
+    form(id='encode_form', method='POST', action='/encode', enctype='multipart/form-data')
+      | Secret file
+      input(type='file', name='secret')
+      br
+      | Image file
+      input(type='file', name='image')
+      br
+      input(id='encode_button', class='upload_button', type='submit', value='magic')
+  .form_container
+    h2 Decode
+    form(id='decode_form', method='POST', action='/decode', enctype='multipart/form-data')
+      | Offset 
+      br
+      input(type='text', name='offset')
+      br
+      | Stego file
+      input(type='file', name='stego')
+      input(id='decode_buton', class='upload_button', type='submit', value='magic')
+      br
+  #response_container
+  #spinner
