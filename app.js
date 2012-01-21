@@ -40,10 +40,10 @@ app.get('/', function(req, res){
 app.post('/encode', function(req, res){
   var secret = req.files.secret.path,
       image = req.files.image.path;
-  stego.encode(secret, image , function(offset, pub_bmp){
+  stego.encode(secret, image, function(message, pub_bmp){
     var ajax_json = {
       stego_bmp: pub_bmp,
-      offset: offset
+      message: message
     };
     res.send(ajax_json);
   });

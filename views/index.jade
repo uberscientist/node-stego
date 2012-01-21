@@ -1,11 +1,18 @@
 script(src='/javascripts/stegojax.js', type='text/javascript')
 #pagewrap
   h1 Node.JS Steganography
-  p A stego application in Node.JS
+  p A 
+    a(href='http://en.wikipedia.org/wiki/Steganography') steganography
+    |  application in Node.JS
+  p View the guts on 
+    a(href='http://github.com/naked/node-stego') github
+    | . Also follow me on 
+    a(href='https://twitter.com/#!/uberscientist') twitter
+    |  because I have lots of important things to say :)
   .form_container
     h2 Encode
     form(id='encode_form', method='POST', action='/encode', enctype='multipart/form-data')
-      | Secret file
+      | Secret file 
       input(type='file', name='secret')
       br
       | Image file
@@ -15,9 +22,6 @@ script(src='/javascripts/stegojax.js', type='text/javascript')
   .form_container
     h2 Decode
     form(id='decode_form', method='POST', action='/decode', enctype='multipart/form-data')
-      | Offset 
-      br
-      input(type='text', name='offset')
       br
       | Stego file
       input(type='file', name='stego')

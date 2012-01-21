@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #009cc8;
 }
 
 input {
@@ -22,6 +22,10 @@ input {
 }
 
 #response_container{
+  background-color: #A2E5FF;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
   width: 600px;
   text-align: center;
   float: left;
@@ -29,8 +33,11 @@ input {
 }
 
 .form_container {
+  background-color: #A2E5FF;
+  border-radius: 10px;
   width: 300px;
-  margin: 20px auto;
+  margin: 10px;
+  padding: 20px;
   float: left;
 }
 

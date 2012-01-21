@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     function process_encode(data){
       spinner.stop();
-      $('div #response_container').html('Decode offset: <strong>'+data.offset +
-        '</strong><br/>Steganographic:<img id=\'stego_bmp\' src=\'images/'+data.stego_bmp+'\' />');
+      $('div #response_container').html('Message: '+data.message +
+        '<br/>Steganographic:<img id=\'stego_bmp\' src=\'images/'+data.stego_bmp+'\' />');
     }
 });
