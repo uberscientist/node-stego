@@ -1,3 +1,5 @@
+**This isn't maintained at all, it was an experiment and a challenge to myself a few years back**
+
 What is it?
 ===========
 It's an AJAX, Node.JS <a href='http://en.wikipedia.org/wiki/Steganography'>steganography</a> web app.
@@ -11,8 +13,3 @@ What are the dependencies? Your repo doesn't have them all!
 ===========
 You need Node.JS 0.6.7, I know 0.4.1 won't work because of a bug in Buffer class.
 You'll need Express and connect-form(which you can install that through NPM) as well as Imagemagick `convert` to do the image conversion.
-
-But seriously don't try and run it yourself, there's a reason I made this a webapp.
-
-P.S.
-I don't have a job, hire me if you want.
